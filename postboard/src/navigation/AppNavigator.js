@@ -45,6 +45,7 @@ export default function AppNavigator() {
       screenOptions={({ route }) => ({
         headerShown: false,   // O Stack já mostra o header
         tabBarActiveTintColor: '#1a56db',
+        tabBarShowLabel: false,
         tabBarInactiveTintColor: '#9ca3af',
         tabBarStyle: {
           backgroundColor: '#ffffff',
@@ -80,5 +81,6 @@ export default function AppNavigator() {
         }}
       />
     </Tab.Navigator>
+    
   );
 }
